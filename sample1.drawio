@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4">
+  <diagram name="Page-1" id="UzDuIxxA5CnASvPfumyv">
+    <mxGraphModel dx="1111" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="Client Interfaces" vertex="1">
+          <mxGeometry height="200" width="200" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-2" parent="_PgP4GxdeGrPTbNRpvTk-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Web App&#xa;(React)" vertex="1">
+          <mxGeometry height="40" width="160" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-3" parent="_PgP4GxdeGrPTbNRpvTk-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mobile Apps&#xa;(iOS/Android)" vertex="1">
+          <mxGeometry height="40" width="160" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-4" parent="_PgP4GxdeGrPTbNRpvTk-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Voice Assistant" vertex="1">
+          <mxGeometry height="40" width="160" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="Core System Components" vertex="1">
+          <mxGeometry height="400" width="480" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-6" parent="_PgP4GxdeGrPTbNRpvTk-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Multi-modal AI Engine" vertex="1">
+          <mxGeometry height="60" width="200" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-7" parent="_PgP4GxdeGrPTbNRpvTk-5" style="rounded=1;whiteSpace=wrap;html=1;" value="NLP Service" vertex="1">
+          <mxGeometry height="60" width="200" x="260" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-8" parent="_PgP4GxdeGrPTbNRpvTk-5" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=15;" value="Knowledge Graph DB" vertex="1">
+          <mxGeometry height="60" width="200" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-9" parent="_PgP4GxdeGrPTbNRpvTk-5" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=15;" value="Vector Database" vertex="1">
+          <mxGeometry height="60" width="200" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-10" parent="_PgP4GxdeGrPTbNRpvTk-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Real-time Chat Processing" vertex="1">
+          <mxGeometry height="60" width="200" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-11" parent="_PgP4GxdeGrPTbNRpvTk-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Smart Escalation Engine" vertex="1">
+          <mxGeometry height="60" width="200" x="260" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-12" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="Infrastructure" vertex="1">
+          <mxGeometry height="320" width="200" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-13" parent="_PgP4GxdeGrPTbNRpvTk-12" style="rounded=1;whiteSpace=wrap;html=1;" value="AWS EKS" vertex="1">
+          <mxGeometry height="40" width="160" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-14" parent="_PgP4GxdeGrPTbNRpvTk-12" style="rounded=1;whiteSpace=wrap;html=1;" value="Load Balancers" vertex="1">
+          <mxGeometry height="40" width="160" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-15" parent="_PgP4GxdeGrPTbNRpvTk-12" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=15;" value="Redis Cache" vertex="1">
+          <mxGeometry height="50" width="160" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-16" parent="_PgP4GxdeGrPTbNRpvTk-12" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=15;" value="PostgreSQL" vertex="1">
+          <mxGeometry height="50" width="160" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-17" parent="_PgP4GxdeGrPTbNRpvTk-12" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;size=15;" value="Elasticsearch" vertex="1">
+          <mxGeometry height="50" width="160" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-18" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="Integrations" vertex="1">
+          <mxGeometry height="400" width="280" x="840" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-19" parent="_PgP4GxdeGrPTbNRpvTk-18" style="rounded=1;whiteSpace=wrap;html=1;" value="CRM Systems" vertex="1">
+          <mxGeometry height="40" width="240" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-20" parent="_PgP4GxdeGrPTbNRpvTk-18" style="rounded=1;whiteSpace=wrap;html=1;" value="Help Desk Platforms" vertex="1">
+          <mxGeometry height="40" width="240" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-21" parent="_PgP4GxdeGrPTbNRpvTk-18" style="rounded=1;whiteSpace=wrap;html=1;" value="Analytics Tools" vertex="1">
+          <mxGeometry height="40" width="240" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-22" parent="_PgP4GxdeGrPTbNRpvTk-18" style="rounded=1;whiteSpace=wrap;html=1;" value="Communication Platforms" vertex="1">
+          <mxGeometry height="40" width="240" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-23" parent="_PgP4GxdeGrPTbNRpvTk-18" style="rounded=1;whiteSpace=wrap;html=1;" value="Payment Systems" vertex="1">
+          <mxGeometry height="40" width="240" x="20" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-24" parent="_PgP4GxdeGrPTbNRpvTk-18" style="rounded=1;whiteSpace=wrap;html=1;" value="GPT-4 API" vertex="1">
+          <mxGeometry height="40" width="240" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" value="Security &amp; Monitoring" vertex="1">
+          <mxGeometry height="160" width="480" x="320" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-26" parent="_PgP4GxdeGrPTbNRpvTk-25" style="rounded=1;whiteSpace=wrap;html=1;" value="End-to-end Encryption" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-27" parent="_PgP4GxdeGrPTbNRpvTk-25" style="rounded=1;whiteSpace=wrap;html=1;" value="Health Monitoring" vertex="1">
+          <mxGeometry height="40" width="140" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-28" parent="_PgP4GxdeGrPTbNRpvTk-25" style="rounded=1;whiteSpace=wrap;html=1;" value="Compliance Controls" vertex="1">
+          <mxGeometry height="40" width="140" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-29" parent="_PgP4GxdeGrPTbNRpvTk-25" style="rounded=1;whiteSpace=wrap;html=1;" value="Disaster Recovery" vertex="1">
+          <mxGeometry height="40" width="140" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-30" parent="_PgP4GxdeGrPTbNRpvTk-25" style="rounded=1;whiteSpace=wrap;html=1;" value="Performance Metrics" vertex="1">
+          <mxGeometry height="40" width="140" x="170" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-31" parent="_PgP4GxdeGrPTbNRpvTk-25" style="rounded=1;whiteSpace=wrap;html=1;" value="Audit Logging" vertex="1">
+          <mxGeometry height="40" width="140" x="320" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-32" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-2" target="_PgP4GxdeGrPTbNRpvTk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-33" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-3" target="_PgP4GxdeGrPTbNRpvTk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-34" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-4" target="_PgP4GxdeGrPTbNRpvTk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-35" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-14" target="_PgP4GxdeGrPTbNRpvTk-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-36" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-6" target="_PgP4GxdeGrPTbNRpvTk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-37" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-7" target="_PgP4GxdeGrPTbNRpvTk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-38" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-6" target="_PgP4GxdeGrPTbNRpvTk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-39" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-10" target="_PgP4GxdeGrPTbNRpvTk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-40" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-6" target="_PgP4GxdeGrPTbNRpvTk-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-41" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-11" target="_PgP4GxdeGrPTbNRpvTk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_PgP4GxdeGrPTbNRpvTk-42" edge="1" parent="1" source="_PgP4GxdeGrPTbNRpvTk-6" target="_PgP4GxdeGrPTbNRpvTk-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
